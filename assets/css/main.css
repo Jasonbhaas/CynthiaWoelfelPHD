@@ -1172,7 +1172,24 @@
 		margin-bottom: 2em;
 	}
 
-	
+	h3.email {
+		color: #EA8A95 !important;
+	}
+
+	.phone {
+		color: #43B3E0 !important;
+	}
+
+	.address {
+		color: #02C757 !important;
+	}
+
+	.fax {
+		color: #F4BD42 !important;
+	}
+	.show-description {
+		opacity: 1;
+	}
 
 	.welcome {
 		text-align: right;
