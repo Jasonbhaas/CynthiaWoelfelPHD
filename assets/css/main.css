@@ -1172,13 +1172,12 @@
 		margin-bottom: 2em;
 	}
 
-<<<<<<< HEAD
-	.email {
-		color: #EA8A95 !important;
-	}
-
 	.phone {
 		color: #43B3E0 !important;
+	}
+
+	.email {
+		color: #EA8A95 !important;
 	}
 
 	.address {
@@ -1191,9 +1190,6 @@
 	.show-description {
 		opacity: 1;
 	}
-=======
-	
->>>>>>> f67bb73c48a3fcdcc6d804e43ceb929c54e9c1cb
 
 	.welcome {
 		text-align: right;
