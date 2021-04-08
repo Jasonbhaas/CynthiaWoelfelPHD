@@ -56,6 +56,11 @@
 		box-sizing: border-box;
 	}
 
+	.download !important {
+		cursor: pointer;
+	}
+
+
 /* Containers */
 
 	.container {
@@ -1068,6 +1073,10 @@
 
 /* Basic */
 
+	a 
+	{
+		text-decoration: none !important;
+	}
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
@@ -1172,7 +1181,24 @@
 		margin-bottom: 2em;
 	}
 
-	
+	.phone {
+		color: #43B3E0 !important;
+	}
+
+	.email {
+		color: #EA8A95 !important;
+	}
+
+	.address {
+		color: #02C757 !important;
+	}
+
+	.fax {
+		color: #F4BD42 !important;
+	}
+	.show-description {
+		opacity: 1;
+	}
 
 	.welcome {
 		text-align: right;
@@ -1865,7 +1891,7 @@
 			}
 
 			.box2 {
-				height: 125px;
+				height: 150px; !important
 			}
 
 			.red-border {
@@ -1982,7 +2008,7 @@
 					}
 
 	}
-
+/*jason*/
 /* Tablet */
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -2026,6 +2052,29 @@
 				margin: 0;
 			}
 
+			/* Box */
+
+			.box {
+				padding: 30px 20px 30px 20px;
+				margin: 0 0 20px 0 !important;
+				height: 100px;
+			}
+
+			.red-border {
+				border-top: 4px solid #EA8A95;
+			}
+			.blue-border {
+				border-top: 4px solid #43B3E0;
+			}
+			.green-border {
+				border-top: 4px solid #02C757;
+			}
+			.yellow-border {
+				border-top: 4px solid #F4BD42;
+			}
+
+
+
 	}
 
 /* Mobile */
@@ -2068,6 +2117,10 @@
 
 			hr {
 				margin: 1.5em 0 2em 0;
+			}
+
+			nav {
+				margin: 0 0 0 0;
 			}
 
 		/* Section/Article */
@@ -2125,6 +2178,20 @@
 			.box {
 				padding: 30px 20px 30px 20px;
 				margin: 0 0 20px 0 !important;
+				height: 175px;
+			}
+
+			.red-border {
+				border-top: 4px solid #EA8A95;
+			}
+			.blue-border {
+				border-top: 4px solid #43B3E0;
+			}
+			.green-border {
+				border-top: 4px solid #02C757;
+			}
+			.yellow-border {
+				border-top: 4px solid #F4BD42;
 			}
 
 				.box h3 {
